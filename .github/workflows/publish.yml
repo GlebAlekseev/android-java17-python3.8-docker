@@ -6,7 +6,7 @@ on:
 
 jobs:
   build_docker_image:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       # Build JAR:
       - uses: actions/checkout@v1
